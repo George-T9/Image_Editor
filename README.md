@@ -9,7 +9,7 @@ A simple Image editor android app.
 - Saving photo after editing
 
 # MVVM architecture
-MVVM  is a Model-View-View Model architecture.It is a architecture in which we seperate Bussiness Logic from View. I tried to MVVM architecture but it is not perfect it have lot of mistakes
+MVVM  is a Model-View-View Model architecture.It is a architecture in which we seperate Bussiness Logic from View. I tried to apply MVVM architecture but it is not perfect it have lot of mistakes
 
 # Libraries
 Some Main libraries i used for this app are
