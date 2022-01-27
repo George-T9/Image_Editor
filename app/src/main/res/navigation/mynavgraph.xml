@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mynavgraph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.imageeditor.view.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_editorFragment2"
+            app:destination="@id/editorFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/editorFragment2"
+        android:name="com.example.imageeditor.view.editor.EditorFragment"
+        android:label="activity_edit"
+        tools:layout="@layout/fragment_edit" />
+</navigation>

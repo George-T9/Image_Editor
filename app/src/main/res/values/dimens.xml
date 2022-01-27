@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="filter_card_width">120dp</dimen>
+    <dimen name="filter_title_padding">8dp</dimen>
+    <dimen name="rv_filter_height">200dp</dimen>
+    <dimen name="rv_filter_height_hidden">2dp</dimen>
+</resources>
