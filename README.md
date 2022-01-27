@@ -1,6 +1,13 @@
 # Image Editor
 A simple Image editor android app.
 
+# Screenshots
+![sample](sample/sample_image_1.png) 
+![sample](sample/sample_image_2.png)
+![sample](sample/sample_image_3.png)
+![sample](sample/sample_Image_4.png)
+
+
 # Features
 - Crop image
 - Roatate clockwise and anti Clock wise
