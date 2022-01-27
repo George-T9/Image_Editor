@@ -89,7 +89,7 @@ class EditorFragment : Fragment(), FilterListAdapter.OnClickListener,
             when(it.itemId){
                 R.id.nav_save -> {
                     model.save()
-                    Toast.makeText(requireContext(),"Image Saved",Toast.LENGTH_LONG).show()
+                    Navigation.findNavController(requireActivity(), R.id.nav_host_fragment).popBackStack()
                     true
                 }
                 else -> {
@@ -103,6 +103,7 @@ class EditorFragment : Fragment(), FilterListAdapter.OnClickListener,
                     setGuidelines(CropImageView.Guidelines.ON)
                     setOutputCompressFormat(Bitmap.CompressFormat.PNG)
                     setAllowFlipping(false)
+                    setAllowRotation(false)
                 }
             )
         }
